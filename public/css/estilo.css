@@ -1,0 +1,1245 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0px;
+    margin: auto;
+    max-width: 1280px;
+}
+
+.t1{
+    font-family: 'IBM Plex Sans';
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #4D4D4D;
+}
+
+.p_texto{
+    font-family: 'IBM Plex Sans';
+    font-weight: 300;
+    font-size: 13px;
+    color: #4D4D4D;
+}
+
+.menu_selec{
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #B47D33;
+}
+
+.superior{
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 20;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.titulo{
+    margin-top: 52px;
+    text-align: center;
+   
+}
+
+.linha_separadora{
+    margin: 15px 55px;
+    background-color: #707070;
+    width: 90%;
+    height: 1px;
+}
+
+.nav{
+    border: none;
+}
+
+.barra-nav{
+    z-index: 20;
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #4D4D4D;
+    padding: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link{
+    margin-right: 10px;
+    padding: 0px;
+}
+
+.nav-item :hover{
+    color: #B47D33;
+}
+
+.nav-link.active {
+    color: #B47D33 !important;
+}
+
+.dropdown-menu{
+    background-color: white;
+    border: 0px solid white;
+    border-radius: 0px;
+    margin: 17px;
+    padding: 25px 30px 35px 30px;
+
+}
+
+.dropdown-toggle.show{
+    color: #B47D33 !important;
+}
+
+.dropdown-item{
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+    font-size: 13px;
+    color: #4D4D4D;
+    margin-bottom: 15px;
+}
+
+
+.carousel-inner{
+    height: 730px;
+    width: 100vw;
+    max-width: 1280px;
+    margin: auto;
+    padding: 0px;
+    z-index: 10;
+    position: relative;
+}
+
+.carousel-item > img{
+    height: 730px;
+}
+
+.b_destaque{
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #B17E3B;
+    text-align: left;
+    height: 31px;
+    margin: 0px;
+}
+
+.b-legendas{
+    
+    margin-left: 40px;
+    padding: 0px;
+    width: 35%;
+    height: fit-content;
+    z-index: 20;
+    position: absolute;
+    top: 270px;
+ 
+
+}
+
+.b_titulo{
+    font-family: 'IBM Plex Sans';
+    font-weight: 300;
+    font-size: 40px;
+    padding: 0px;
+    color: #4D4D4D;
+    text-align: left;
+    text-transform: uppercase;
+    z-index: 20;
+}
+
+.b_descricao{
+    font-family: 'IBM Plex Sans';
+    font-weight: 300;
+    font-size: 13px;
+    color: #4D4D4D;
+    text-align: left;
+    margin-top: 15px;
+    padding: 0px;
+    z-index: 20;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-line-clamp: 5; 
+    -webkit-box-orient: vertical; 
+}
+
+.sabermais1{
+    width: 120px;
+    height: 30px;
+    margin-top: 15px;
+    z-index: 20;
+    float: left;
+}
+
+.sabermais1:hover{
+    filter: grayscale();
+}
+
+.carousel-indicators{
+    position: absolute;
+    z-index: 50;
+    height: fit-content;
+    width: fit-content;
+    top: 610px;
+    left: 45px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0);
+   
+}
+
+.carousel-indicators > .botao{
+    background-image: url('http://localhost/sebastiao_alves/public/imagens/bolabanner1.svg') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0);
+   
+}
+
+.carousel-indicators > .active{
+    background-image: url('http://localhost/sebastiao_alves/public/imagens/bolabanner2.svg') !important;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+.area_bem_vindo{
+    width: 93%;
+    height: 538px;
+    position: relative;
+    top: -45px;
+    z-index: 30;
+    margin-left: 90px;
+    padding: 0px;
+    background-color: white;
+    box-shadow: 0px 5px 5px 1px rgb(217, 216, 216);
+}
+
+.imagem_bem_vindo img{
+    margin-top: 60px;
+    margin-left: 60px;
+    float: right;
+    max-width: 312px;
+    max-height: 396px;
+    padding: 0px;
+    box-shadow: 2px 2px 10px 1px rgb(150, 150, 150);
+    
+}
+
+#titulo_bem_vindo{
+    margin-top: 70px;
+    margin-left: 30px;
+  
+}
+
+#descricao_bem_vindo{
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: left;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-line-clamp: 12; 
+    -webkit-box-orient: vertical; 
+   
+
+}
+
+#botao_saber_mais{
+    float: right;
+    margin-top: 40px;
+    width: 120px;
+    height: 30px;
+
+}
+
+#botao_saber_mais:hover{
+    filter: grayscale();
+}
+
+.titulo_ult_livros{
+    margin-top: 85px;
+    float: left;
+    padding: 0px 20px;
+}
+
+.texto_ult_livros{
+    margin-top: 23px;
+    text-align: left;
+    padding: 0px 20px;
+}
+
+.destaques_ult_livros{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-bottom: 106px;
+}
+
+.card{
+    height: 700px;
+    padding: 0px;
+    box-shadow: 3px 3px 10px 1px rgb(150, 150, 150);
+    border-radius: 0px;
+    
+}
+.imagem_destaque{
+    width: 100%;
+    height: auto;
+    max-height: 390px;
+    margin: 0px;
+}
+
+.titulo_destaque{
+    margin: 30px 25px 0px 25px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+    min-height: 69px;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #4D4D4D;
+    padding: 0px;
+}
+
+.categoria_destaque{
+    margin: 10px 25px 0px 25px;
+    padding: 0px;
+    min-height: 20px;
+    font-family: 'IBM Plex Sans';
+    font-size: 13px;
+    font-weight: 500;
+    color: #B17E3B;
+    text-transform: uppercase;
+}
+
+.texto_destaque{
+    margin-top: 10px;
+    margin-left: 25px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 300;
+    max-height: 98px;
+    font-size: 13px;
+    color: #4D4D4D;
+    padding: 0px;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-line-clamp: 4; 
+    -webkit-box-orient: vertical; 
+}
+
+.botao_saber_destaques{
+    margin-top: 15px;
+    margin-right: 37px;
+    text-align: right;
+    height: fit-content;
+}
+
+.botao_saber_destaques img{
+    width: 120px;
+    height: 30px;
+}
+
+.botao_saber_destaques img:hover{
+    filter: grayscale();
+}
+
+.linha_separadora_inferior{
+    background-color: #707070;
+    width: 90%;
+    margin: auto;
+    height: 1px;
+    stroke: 1px;
+}
+
+#barra-nav-inf{
+    margin: 27px 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+#barra-nav-inf .nav-link{
+    margin-right: 20px;
+}
+
+.rodape_final{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.titulo_contactos{
+    margin-left: 28px;
+    text-align: left;
+}
+
+.titulo_redes_sociais{
+    text-align: center;
+    
+}
+
+.campos_contactos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 28px;
+    
+}
+
+.titulo_campo{
+    margin-top: 20px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #B17E3B;
+    text-align: left;
+}
+
+.desc_campo{
+    margin-top: 6px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 300;
+    font-size: 15px;
+    color: #4D4D4D;
+    text-align: left;
+}
+
+.telefone{
+    margin-left: 10px;
+}
+
+.email{
+    margin-left: 15px;
+}
+
+.redes{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.rede:hover{
+    filter: grayscale();
+}
+
+.rede img{
+    height: 37px;
+    width: 37px;
+    margin-right: 20px;
+}
+
+.icones_legais{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.reclamacoes{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 58px;
+    margin-left: 28px;
+}
+
+#ralc{
+    margin-left: 43px;
+}
+
+.cookies{
+    margin-top: 88px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+    font-size: 13px;
+    font-weight: 300;
+    color: #4D4D4D;
+}
+
+.area_titulo{
+    width: 93%;
+    float: right;
+    height: 130px;
+    position: relative;
+    top: -45px;
+    z-index: 30;
+    margin-left: 90px;
+    padding: 0px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 0px rgb(150, 150, 150);
+}
+
+.menu_simples_titulo{
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 55px;
+    margin-bottom: 10px;
+}
+
+.sub_menu_simples{
+    text-align: left;
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+
+.corpo_autor{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 55px;
+
+}
+
+.corpo_autor > img{
+    margin-bottom: 40px;
+    max-width: 500px;
+}
+
+.botao_voltar{
+    padding: 0px 55px;
+}
+
+.voltar_atras{
+    width: 132px;
+    height: 30px;
+    margin: 75px 0px;
+    position: relative;
+    float: left;
+    border: none;
+    background-color: transparent;
+}
+
+.voltar_atras:hover{
+    filter: grayscale();
+}
+
+.area_contactos{
+    padding-top: 35px;
+}
+
+.telf, .morada, .mail{
+    height: fit-content;
+}
+
+
+.tit_campo{
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #B17E3B;
+    text-align: center;
+}
+
+.des_campo{
+    margin-top: 6px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 300;
+    font-size: 15px;
+    color: #4D4D4D;
+    text-align: center;
+}
+
+
+.linha_contactos{
+    width: 60px;
+    margin-top: 40px !important;
+    border-top: 1px solid #707070;
+    margin: auto;
+}
+
+.horario{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    height: min-content;
+}
+
+.area_livro{
+    margin-top: 65px;
+    height: fit-content;
+}
+
+.botao_area_livro{
+    float: right;
+    text-align: center;
+}
+
+.botao_voltar_livro{
+    width: 132px;
+    height: 30px;
+    margin-top: 85px;
+    margin-bottom: 75px;
+    border: none;
+    background-color: transparent;
+}
+
+.botao_voltar_livro:hover{
+    filter: grayscale();
+}
+
+.img_cont_livro{
+    text-align: center;
+    float: left;
+}
+
+.texto_cont_livro{
+    padding-left: 44px;
+    padding-right: 57px;
+}
+
+.noticia{
+    background-color: white;
+    padding: 0px 175px 0px 175px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.noticia_um{
+    padding: 20px 175px 0px 175px;
+    background-color: white;
+    box-shadow: 0px 5px 5px 1px rgb(217, 216, 216);
+    text-align: center;
+    
+}
+
+.titulo_noticia{
+    text-align: left;
+}
+
+.linha_sep_noticia{
+    margin: 12px 0px;
+    border-top: 1px solid #A97339;
+    height: fit-content;
+}
+
+.data_noticia{
+    font-family: IBM Plex Sans;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #4D4D4D;
+    text-align: right;
+}
+
+.texto_noticia > p{
+    text-align: center;
+}
+
+.texto_noticia > img{
+    width: 100%;
+    margin: 40px 0px;
+}
+
+.texto_noticia > p{
+    text-align: left;
+}
+
+.paginacao{
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 90px 0px;
+    height: fit-content;
+    
+}
+
+.seta_imprensa{
+    background-color: white;
+    border: none;
+}
+
+.seta_imprensa >img{
+    width: 17px;
+    height: 30px;
+    margin: 0px 60px;
+}
+
+#seta_imprensa_esq{
+    padding-right: -17px;
+}
+
+.numeros_pag{
+    background-color: white;
+    border: none;
+    font-family: IBM Plex Sans;
+    font-weight: 500;
+    font-size: 23px;
+    color: #4D4D4D;
+    padding-left: 17px;
+}
+
+.numeros_pag:hover{
+    color: #B17E3B;
+}
+
+.numeros_pag.active{
+    color: #B17E3B;
+}
+
+
+@media all and (max-width: 768px) {
+
+    header{
+        height: 760px;
+    }
+    
+    .superior{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 254px;
+        z-index: 20;
+    }
+
+    .titulo{
+        text-align: left;
+        margin-top: 70px;
+        padding: 0px 35px;
+        
+    }
+
+    .t1{
+        font-size: 22px;
+    }
+
+    .linha_separadora{
+        margin-top: 15px;
+        text-align: center;
+        height: 1px !important;
+    }
+
+    .barra-nav button{
+        margin-right: 35px;
+        margin-top: 70px;
+        width: 35px;
+        height: 25px;
+        border: 1px solid rgba(0, 0, 0, 0);
+    }
+
+    .barra-nav li{
+        margin-bottom: 22px;
+
+    }
+
+    .collapse{
+        border: none;
+        
+    }
+
+    .navbar-collapse{
+        background-color: white;
+        top: 130px !important;
+        width: 360px;
+        text-align: left;
+        left: -280px;
+        position: absolute;
+        padding: 35px;
+        
+    }
+
+    .nav-bar > img{
+        border: none;
+    }
+
+    .dropdown > ul{
+        box-shadow: 0px 5px 5px 1px rgb(217, 216, 216);
+        height: fit-content;
+        width: 100%;
+
+    }
+
+    a > .nav-link.active {
+        color: #B47D33;
+    }
+
+
+    .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    .img_toggler{
+        width: 35px;
+        height: 25px;
+    }
+
+    .carousel-inner{
+        max-height: 760px;
+        
+        background-color: #dedede;
+    }
+
+    .carousel-inner img{
+        max-width: 500px;
+        margin: auto;    
+    }
+
+    .cabecalho{
+        max-height: 760px;
+    }
+
+
+    .b-legendas{  
+        width: 80%;
+        min-width: 360px;
+        height: fit-content;
+        z-index: 20;
+        padding: 0px 35px;
+        text-align: left;
+        position: absolute;
+        left: -40px;
+        top: 330px;
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+        display: -webkit-box;
+        -webkit-line-clamp: 8; 
+        -webkit-box-orient: vertical; 
+    }
+    
+
+    .b_destaque{
+        font-family: 'IBM Plex Sans';
+        font-weight: 500;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #B17E3B;
+        text-align: left;
+        height: 15px;
+        margin: 0px;
+    }
+    
+    .b_titulo{
+        font-family: 'IBM Plex Sans';
+        font-weight: 300;
+        line-height: 42px;
+        font-size: 40px;
+        padding: 0px;
+        color: #4D4D4D;
+        text-align: left;
+        text-transform: uppercase;
+        z-index: 20;
+        margin-top: 25px;
+    }
+    
+    .b_descricao{
+        font-family: 'IBM Plex Sans';
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 14px;
+        color: #4D4D4D;
+        text-align: left;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        padding: 0px;
+        z-index: 20;
+    
+    }
+
+    .sabermais1{
+        width: 101px;
+        height: 26px;
+        margin: 20px 0px 0px 0px;
+        z-index: 20;
+        float: left;
+        
+    }
+    
+
+    .carousel-indicators{
+        margin: 55px 0px 0px 40px;
+        left: 0px;
+        top: 600px;
+        z-index: 20;       
+    }
+
+    .area_bem_vindo{
+        width: 100%;
+        margin: auto;
+        height: 1210px;
+        position: relative;
+        top: 0px;
+        z-index: 10;
+        padding: 73px 35px 0px 35px;
+        background-color: white;
+    }
+
+    .imagem_bem_vindo{
+        margin: auto;
+        box-shadow: 0px 5px 5px 1px rgb(217, 216, 216);
+        height: fit-content;
+        
+    }
+
+    .imagem_bem_vindo img{
+        width: 100%;
+        
+    }
+
+
+    #titulo_bem_vindo{
+        margin-top: 35px;
+        margin-left: 0px;
+       
+    }
+
+    #descricao_bem_vindo{
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: left;
+      
+    }
+
+    #botao_saber_mais{
+        margin: auto;
+        float: none;
+        padding: 40px 0px;
+    }
+
+    #botao_saber_mais > img{
+        text-align: center;
+        width: 101px;
+        height: 26px;
+    }
+
+    .ult_livros{
+        margin-top: 40px;
+        margin-bottom: 60px;
+        padding: 0px 35px;
+    }
+
+    .destaques_ult_livros{
+        padding: 0px;
+        margin: auto;
+    }
+
+    .texto_ult_livros{
+        margin-top: 20px;
+    }
+
+    .card{
+        height: 580px;
+        width: 310px;
+    }
+
+    .card img{
+        height: 288px;
+    }
+
+    .titulo_destaque{
+        line-height: 23px;
+    }
+
+    .texto_destaque{
+        margin: 14px 25px 0px 25px;
+        padding: 0px;
+    }
+
+    .botao_saber_destaques img{
+        width: 101px;
+        height: 26px;
+       
+    }
+
+    .rodape_final, .campos_contactos{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .campos_contactos{
+        margin-left: 0px;
+    }
+
+    .titulo_contactos, .titulo_campo, .desc_campo{
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .titulo_campo{
+        margin-top: 20px;
+    }
+
+    .desc_campo{
+        margin-top: 6px;
+    }
+
+    .titulo_redes_sociais{
+        margin-top: 40px;
+    }
+
+    .rede img{
+        margin-right: 25px;
+    }
+
+    .redes{
+        margin-top: 30px;
+    }
+
+    .reclamacoes{
+        margin-top: 64px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 58px;
+        margin-left: 0px;
+    }
+
+    #ralc{
+        margin-left: 44px;
+    }
+
+    .cookies{
+        margin-top: 43px;
+        margin-bottom: 60px;
+    }
+
+    .area_titulo{
+        width: 100vw;
+        min-height: 130px;
+        margin-top: 0px;
+        height: fit-content;
+        float: left;
+        margin-left: 0px;
+    }
+
+    .menu_simples_titulo{
+        margin-top: 50px;
+        text-align: left;
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-bottom: 10px;
+    }
+
+    .sub_menu_simples{
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-bottom: 14px;
+        width: fit-content;
+    }
+
+    .corpo_autor > img{
+        padding: 0px 35px;
+        width: 100vw;
+    }
+
+    .corpo_autor{
+        padding: 0px 35px;
+    }
+
+    #pequeno{
+        overflow: hidden !important; 
+        text-overflow: ellipsis !important; 
+        display: -webkit-box !important;
+        -webkit-line-clamp: 15 !important; 
+        -webkit-box-orient: vertical !important; 
+    }
+
+
+    .ver_mais_autor{
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        border: none;
+        background-color: transparent;
+    }
+
+    .ver_mais_autor img{
+        width: 90px;
+        height: 26px;
+    }
+
+    .ver_mais_autor img:hover{
+        filter: grayscale();
+    }
+
+    .voltar_atras img{
+        width: 132px;
+        height: 30px;
+    }
+
+    .voltar_atras{
+        margin-top: 0px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .texto_cont_livro{
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+
+    .botao_voltar_livro{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+
+    .noticia{
+        padding: 0px 35px;
+        margin-top: 60px;
+    }
+    
+    .noticia_um{
+        padding: 0px 35px;
+    }
+
+    .linha_sep_noticia{
+        margin: 10px 0px;
+    }
+
+    .texto_noticia > img{
+        margin: 30px 0px;
+    }
+
+    .paginacao{
+        margin: 50px 0px;
+        padding: 0px 35px;
+
+    }
+
+    .seta_imprensa >img{
+        width: 10px;
+        height: 35px;
+        margin: 0px 26px;
+    }
+    
+    #seta_imprensa_esq{
+        padding-right: -26px;
+    }
+    
+    .numeros_pag{
+        background-color: white;
+        border: none;
+        font-family: IBM Plex Sans;
+        font-weight: 500;
+        font-size: 15px;
+        color: #4D4D4D;
+        padding-left: 26px;
+    }
+
+    .area_contactos{
+        padding-top: 20px;
+    }
+
+    .telf, .mor{
+        margin-bottom: 65px;
+    }
+
+    .linha_contactos{
+        margin: 35px 0px;
+        margin: auto;
+    }
+
+}
+
+@media all and (min-width: 769px)  and (max-width: 992px) {
+
+    .area_bem_vindo{
+        width: 100%;
+        margin: auto;
+        height: 900px;
+        position: relative;
+        top: 0px;
+        z-index: 10;
+        padding: 73px 35px 0px 35px;
+        background-color: white;
+    }
+
+    .imagem_bem_vindo{
+        margin: auto;
+        box-shadow: 0px 5px 5px 1px rgb(217, 216, 216);
+        height: fit-content;
+        
+    }
+
+    .imagem_bem_vindo img{
+        width: 100%;
+        
+    }
+
+
+    #titulo_bem_vindo{
+        margin-top: 35px;
+        margin-left: 0px;
+       
+    }
+
+    #descricao_bem_vindo{
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: left;
+      
+    }
+
+    #botao_saber_mais{
+        margin: auto;
+        float: none;
+        padding: 40px 0px;
+    }
+
+    .carousel-indicators{
+        top: 670px;
+
+    }
+
+    .email{
+        margin-left: 0px;
+    }
+
+    .telefone{
+        margin-left: 20px;
+    }
+
+    .cookies{
+        margin-top: 58px;
+    }
+
+}

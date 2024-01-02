@@ -1,0 +1,78 @@
+body{
+    background-color: darkgray;
+    font-family: 'Courier New';
+    height: 100vh;
+}
+
+.principal{
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 2px 2px 5px 5px rgba(67, 66, 66, 0.5);
+}
+
+.titulo_back{
+    font-weight: bold;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+.navbar{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+    margin-bottom: 50px;
+}
+
+.nav-link{
+    background-color: bisque;
+    margin-right: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.nav-link:hover{
+    background-color: rgb(238, 174, 149);
+}
+
+table{  
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 5px 30px;
+}
+
+th{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+td > img{
+    width: 200px;
+}
+
+#texto_banner{
+    height: 200px;
+}
+
+.ck-editor__editable[role="textbox"] {
+    min-height: 200px;
+    margin: auto;
+}
+
